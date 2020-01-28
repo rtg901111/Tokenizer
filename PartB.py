@@ -1,3 +1,4 @@
+#This file reads two file paths, tokenizes the files into words, and prints out the words that are common in the two files.
 from collections import defaultdict
 from nltk.tokenize import RegexpTokenizer
 import sys
