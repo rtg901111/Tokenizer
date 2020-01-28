@@ -1,3 +1,4 @@
+#This file reads a file path, tokenizes the file into words, and prints out the sorted dictionary in the format of {word:frequency}.
 from collections import defaultdict
 from nltk.tokenize import RegexpTokenizer
 import sys
