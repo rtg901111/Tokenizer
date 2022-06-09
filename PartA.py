@@ -10,7 +10,7 @@ def main():
     sorted_dict = sorter(final_dict)                                #Sorts the dictionary
 
     output(sorted_dict)                                             #Prints out the words and their frequency.
-    
+
     file.close()                                                    #Close the file
 
 #The runtime complexity for tokenizer function is O(n) because it has one simple for loop.
@@ -32,9 +32,9 @@ def sorter(final_dict):
 #The runtime complexity is O(n). It iterates over a dictionary to print out its keys and values.
 def output(sorted_dict):
     for x in sorted_dict:
-        print(x[0], "\t" ,x[1])     #It prints out the word and its frequency as the required format. 
+        print(x[0], "\t" ,x[1])     #It prints out the word and its frequency as the required format.
 
 if __name__ == "__main__":
     main()
 
-#PartA runs in O(n log n). 
+#PartA runs in O(n log n).
